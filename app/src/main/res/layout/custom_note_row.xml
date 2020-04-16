@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/notecard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@android:color/darker_gray"
+    app:cardCornerRadius="10dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/horizontalnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#49788F"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/notecheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/notetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:enabled="true"
+
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:maxLines="3"
+            android:minLines="1"
+            android:scrollbars="vertical" />
+
+
+        <ImageButton
+            android:id="@+id/deletebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/delete_shape"
+            app:srcCompat="@android:drawable/ic_delete" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

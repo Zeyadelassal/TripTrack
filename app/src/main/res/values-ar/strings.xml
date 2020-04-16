@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trip Track</string>
+    <!--Mazen-->
+    <string name="trip_name_test">رحلتي الي الاسكندريه</string>
+    <string name="start_point_test">معهد تكنولوجيا المعلومات بالاسكندريه</string>
+    <string name="end_point_test">معهد تكنولوجيا المعلومات بالقريه الذكيه</string>
+    <string name="trip_name">اسم الرحله</string>
+    <string name="select_start_point">اختار نقطه البدايه</string>
+    <string name="select_end_point">اختار نقطه النهايه</string>
+    <string name="start">ابدأ</string>
+    <string name="trip_type">رحله ذهاب فقط</string>
+    <string name="edit">تعديل</string>
+    <string name="delete">حذف</string>
+    <string name="no_trips_history">    لا يوجد رحلات حاليا ف القائمه لديك.فأنت لم تنهي اي رحله بعد</string>
+    <string name="no_nodes_history">انت لم تضف اي ملاحظات لهذه الرحله</string>
+    <string name="name_of_trip">ادخل اسم الرحله!</string>
+    <string name="start_ponit_empty">نقطه البدايه لا يمكن ان تكون فارغه!</string>
+    <string name="end_ponit_empty">نقطه النهايه لا يمكن ان تكون فارغه!</string>
+    <string name="date_empty">التاريخ لا يمكن ان يكون فارغ!</string>
+    <string name="time_empty">الوقت لا يمكن ان يكون فارغ!</string>
+    <string name="one_direction">اتجاه واحد</string>
+    <string name="round_trip">رحله ذهاب وعوده</string>
+    <string name="type_of_trip">نوع الرحله</string>
+    <string name="history">سجل الرحلات</string>
+    <string name="upcoming">الرحلات القادمة</string>
+    <string name="cancel">الغاء</string>
+    <string name="yes">نعم</string>
+    <string name="delete_warning">تحذير بالحذف..! </string>
+    <string name="delete_question">هل ترغب في حذف الرحله..؟</string>
+    <string name="other">الاخري</string>
+    <!--end Mazen-->
+    <!--Awatef-->
+    <string name="login">تسجيل دخول</string>
+    <string name="SignUp">تسجيل</string>
+    <string name="SignIn">تسجيل دخول</string>
+    <string name="haveaccount">بالفعل لديك حساب..!تسجيل دخول</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+    <string name="title">Navigationemail</string>
+    <string name="nav_header_title">nav_header_title</string>
+    <string name="nav_header_subtitle">nav_header_subtitle</string>
+    <string name="nav_header_desc">nav_header_desc</string>
+    <string name="menu_home">menu_home</string>
+    <string name="menu_gallery">menu_gallery</string>
+    <string name="menu_slideshow">menu_slideshow</string>
+    <string name="menu_tools">menu_tools</string>
+    <string name="menu_share">menu_share</string>
+    <string name="menu_send">menu_send</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">الاعدادات</string>
+    <!--end Awatef-->
+    <!--Zeyad-->
+    <string name="facebook_app_id">191385532126234</string>
+    <string name="fb_login_protocol_scheme">fb191385532126234</string>
+    <string name="no_trips">لا يوجد رحلات حاليا ف القائمه لديك. اضغط علي الزر ادناه لتضف رحله</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">حفظ</string>
+    <string name="add_notes">اضافه ملاحظات</string>
+    <string name="title_activity_history_map">الخريطه</string>
+    <string name="enter_your_email">ادخل بريدك الالكتروني</string>
+    <string name="enter_your_password">ادخل رقمك السري</string>
+    <string name="donot_have_account">تسجيل حساب</string>
+    <string name="enter_your_name">ادخل اسمك</string>
+    <string name="confirm_password">تأكيد الرقم السري</string>
+    <string name="password_is_required">الرقم السري مطلوب*</string>
+    <string name="email_is_required">البريد الالكتروني مطلوب*</string>
+    <string name="password_character"><![CDATA[الرقم السري يجب ان يكون اكبر من او يساوي٦ احرف ]]></string>
+    <string name="check_network_connection">تأكد من اتصال الشبكه</string>
+    <string name="username_and_password_doesnot_matches">الاسم والرقم السري غير متطابقين</string>
+    <string name="user_logined_successfully">تم تسجيل الدخول بنجاح</string>
+    <string name="user_already_exist">المستخدم بالفعل موجود</string>
+    <string name="user_created_successfully">تم تسجيل الحساب بنجاح</string>
+    <string name="password_doesnot_match">الرقم السري غير متطابق</string>
+    <string name="name_is_required">الاسم مطلوب*</string>
+    <string name="fill_empty_field">قم بملئ الحقل الفارغ</string>
+    <string name="add_note">اضف ملاحظه...</string>
+    <string name="enter_email_pass_to_login">ادخل الإميل و الباسورد للدخول للتطبيق</string>
+    <string name="fb_reject_request">تم رفض طلبك من قبل فيس بوك</string>
+    <string name="invalid_email">بريد إلكتروني غير صحيح</string>
+    <!--end Zeyad-->
+</resources>
